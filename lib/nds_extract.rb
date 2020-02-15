@@ -35,12 +35,10 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  directors_totals(source)
-  list_of_directors(source)
   total = 0
   numero = 0
   while numero < source.length do
-  total += result[dir_list[numero]]
+  total += directors_totals(source)[list_of_directors(source)[numero]]
   numero += 1
   end
   puts total

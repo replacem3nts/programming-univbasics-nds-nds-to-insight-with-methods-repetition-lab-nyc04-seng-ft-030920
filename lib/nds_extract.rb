@@ -41,7 +41,7 @@ def total_gross(source)
   total += directors_totals(source)[list_of_directors(source)[numero]]
   numero += 1
   end
-  puts total
+  total
   # Write this implementation
   #
   # Should use methods:

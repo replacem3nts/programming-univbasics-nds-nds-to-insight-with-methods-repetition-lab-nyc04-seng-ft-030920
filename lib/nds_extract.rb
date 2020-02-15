@@ -43,7 +43,7 @@ def total_gross(source)
   total += result[dir_list[numero]]
   numero += 1
   end
-  total
+  puts total
   # Write this implementation
   #
   # Should use methods:
